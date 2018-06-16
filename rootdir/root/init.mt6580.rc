@@ -13,7 +13,7 @@ import init.epdg.rc
 import init.trustonic.rc
 import init.modem.rc
 import init.target.rc
-
+import /init.trace.rc
 on early-init
     # Turn off backlight on blank
     write /sys/class/leds/lcd-backlight/trigger "backlight"
