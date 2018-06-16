@@ -18,8 +18,8 @@
 set -e
 
 # Required!
-DEVICE=NOTE_S
-VENDOR=CUBOT
+DEVICE=x510
+VENDOR=Infinix
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cm_NOTE_S.mk
+    $(LOCAL_DIR)/cm_x510.mk
