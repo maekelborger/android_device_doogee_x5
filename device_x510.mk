@@ -146,7 +146,9 @@ PRODUCT_PACKAGES += \
 
 ##GPS
 PRODUCT_PACKAGES += \
-	gps.mt6580
+	gps.mt6580 \
+	mnld \
+	libmnl
 
 # MiraVision
 PRODUCT_PACKAGES += \
