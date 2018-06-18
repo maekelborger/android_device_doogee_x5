@@ -13,6 +13,7 @@ git apply -v --check ../../device/Infinix/x510/patches/0001-system_sepolicy.patc
 cd ../..
 cd frameworks/av
 git apply -v --check ../../device/Infinix/x510/patches/0001-frameworks_av.patch
+#git apply -v --check ../../device/Infinix/x510/patches/0001-MTK-specific-bits.patch
 cd ../..
 cd frameworks/native
 git apply -v --check ../../device/Infinix/x510/patches/frameworks_native.patch
