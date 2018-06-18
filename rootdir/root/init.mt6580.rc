@@ -512,7 +512,7 @@ on post-fs-data
 
     # device info /proc interface
     mknod /dev/devmap c 196 0;
-    chmod 0440 /dev/devmap
+    chmod 0777 /dev/devmap
     chown root system /dev/devmap
 
     # BT relayer mode used VCOM
