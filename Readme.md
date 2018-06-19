@@ -19,9 +19,10 @@ Bug	tracker
 - [x] Blackscreen after unlock
 - [x] FM Radio (with patch)
 - [ ] ril is not stable
-- [ ] GPS with device only (with patch and ramdisk changes)
+- [x] GPS with device only (with patch and ramdisk changes) not fully
 - [x] battery drain on daily use (changes power profile and some source code need to be edit)
-- [ ] Video recording inverted color 
+- [x] Video recording inverted color
+- [ ] Video recording camera max 5MPx
 
 
 How to git
