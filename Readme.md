@@ -1,15 +1,15 @@
-Infinix HOT2 
+DOOGEE X5
 ===========
 Device Tree N
 ------------------
 
-Device Tree for Infinix HOT2.
+Device Tree for DOOGEE X5.
 
 - MT6580 Chipset
 - marshmallow 6.0 (3.18.19 Kernel)
 - 5,0" 1280x720 display
 - 2200MAh battery capacity
-- 2GB RAM
+- 1GB RAM
 
 Bug	tracker
 ---------------
@@ -37,10 +37,8 @@ How to git
 Result
 ---------------
 
-You can see the result on our site:
-https://www.pharaohs-team.tech
-
 Credits:
 pedropereira22@git
 seluce@git
 ibrahim1973@git
+bekriebel@git

@@ -197,7 +197,7 @@ lib/libcustom_prop.so
 lib/libcvsd_mtk.so
 lib/libdcfdecoderjni.so
 lib/libdirect-coredump.so
-lib/libdpframework.so
+-lib/libdpframework.so
 lib/libdrmmtkutil.so
 lib/libdrmmtkwhitelist.so
 lib/libem_bt_jni.so
@@ -213,6 +213,7 @@ lib/libfeatureio.so
 lib/libfgauge.so
 lib/libfile_op.so
 lib/libfmcust.so
+lib/libfmjni.so
 lib/libfs_mgr.so
 lib/libgas.so
 lib/libged.so
@@ -342,6 +343,7 @@ lib/mtk-rilmd2.so
 lib/mtk-ril.so
 
 #lib/egl/:
+lib/egl/egl.cfg
 lib/egl/libGLES_android.so
 lib/egl/libGLES_mali.so
 
@@ -349,6 +351,7 @@ lib/egl/libGLES_mali.so
 lib/hw/audio.a2dp.default.so
 lib/hw/audio.primary.mt6580.so
 lib/hw/camera.mt6580.so
+lib/hw/gps.default.so
 lib/hw/gps.mt6580.so
 lib/hw/gralloc.mt6580.so
 lib/hw/hwcomposer.mt6580.so

@@ -17,8 +17,8 @@
 
 set -e
 
-DEVICE=x510
-VENDOR=Infinix
+DEVICE=x5
+VENDOR=doogee
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
