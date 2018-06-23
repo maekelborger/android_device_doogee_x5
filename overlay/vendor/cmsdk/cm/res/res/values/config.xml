@@ -23,8 +23,5 @@
 
     <!-- Default values for LiveDisplay -->
     <integer name="config_defaultLiveDisplayMode">0</integer>
-	
-     <!-- Configuration to support SIM contact batch operation -->
-    <bool name="config_sim_phonebook_batch_operation">true</bool>
 
 </resources>

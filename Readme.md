@@ -13,18 +13,21 @@ Device Tree for Infinix HOT2.
 
 Bug	tracker
 ---------------
-
+-solved
 - [x] Can not connect to hidden WIFI / WPS
 - [x] Some apps fast crash (source code needs to be edit)
 - [x] Blackscreen after unlock
 - [x] FM Radio (with patch)
-- [ ] ril is not stable
 - [x] GPS with device only (with patch and ramdisk changes) not fully
 - [x] battery drain on daily use (changes power profile and some source code need to be edit)
 - [x] Video recording inverted color
+- [x] Contact import
+- [x] Brightness
+-open
 - [ ] Video recording camera max 5MPx
-
-
+- [ ] ril is not stable
+- [ ] Blackscreen after unlock with nav bar
+-
 How to git
 ---------------
 - cd ~/android/LOS141
