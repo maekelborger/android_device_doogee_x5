@@ -26,6 +26,7 @@ type Vcodec_device, dev_type;
 type proinfo_device, dev_type;
 type nvram_device, dev_type;
 type nvdata_device, dev_type;
+type para_device, dev_type;
 type protect1_device, dev_type;
 type protect2_device, dev_type;
 type mmc_device, dev_type;

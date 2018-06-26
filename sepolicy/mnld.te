@@ -41,3 +41,13 @@ allow mnld mdlog_device:chr_file { read write };
 
 file_type_auto_trans(mnld,system_data_file,mnld_data_file);
 file_type_auto_trans(mnld,apk_data_file,mnld_data_file);
+
+allow mnld proc:file read;
+allow mnld proc:file open;
+allow mnld proc:file ioctl;
+
+allow mnld tmpfs:dir search;
+allow mnld tmpfs:lnk_file read;
+
+allow mnld mnt_user_file:dir search;
+allow mnld mnt_user_file:lnk_file read;

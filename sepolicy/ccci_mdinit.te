@@ -25,3 +25,5 @@ allow ccci_mdinit mdlog_data_file:file r_file_perms;
 allow ccci_mdinit mdlog_data_file:dir r_dir_perms;
 
 #unix_socket_connect(ccci_mdinit, property, init)
+
+allow ccci_mdinit ctl_mdlogger_prop:property_service set;

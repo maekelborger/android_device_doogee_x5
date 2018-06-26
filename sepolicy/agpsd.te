@@ -19,3 +19,5 @@ allow agpsd fuse:dir create_dir_perms;
 allow agpsd fuse:file create_file_perms;
 
 unix_socket_send(agpsd, mnld, mnld);
+
+allow agpsd tmpfs:dir search;

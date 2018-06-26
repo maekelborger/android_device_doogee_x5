@@ -23,3 +23,8 @@ file_type_auto_trans(mobile_log_d,system_data_file,logmisc_data_file);
 
 allow mobile_log_d logmisc_data_file:file create_file_perms;
 allow mobile_log_d logmisc_data_file:dir create_dir_perms;
+
+allow mobile_log_d rootfs:file { getattr open read };
+allow mobile_log_d security_file:dir search;
+allow mobile_log_d proc:file { read open };
+allow mobile_log_d system_data_file:dir remove_name;

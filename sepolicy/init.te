@@ -5,3 +5,5 @@
 allow init nvdata_device:blk_file write;
 allow init protect1_device:blk_file write;
 allow init protect2_device:blk_file write;
+
+allow init { domain -lmkd }:process noatsecure;
