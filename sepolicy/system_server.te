@@ -17,4 +17,5 @@ allow system_server wmtWifi_device:chr_file w_file_perms;
 allow system_server mtklogger_data_file:dir { search getattr };
 
 allow system_server wmt_prop:file { getattr open read };
+allow system_server ota_package_file:dir { getattr search };
 #allow system_server dex2oat_exec:file { execute open read execute_no_trans getattr };
