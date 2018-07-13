@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="bekriebel/android_device_doogee_x5" path="vendor/doogee/x5"/>
-  <project name="bekriebel/android_vendor_doogee_x5" path="vendor/doogee/x5"/>
+  <project name="bekriebel/android_device_doogee_x5" path="device/doogee/x5" remote="github" />
+  <project name="bekriebel/proprietary_vendor_doogee_x5" path="vendor/doogee/x5" remote="github" />
 </manifest>
