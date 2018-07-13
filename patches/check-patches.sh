@@ -26,6 +26,7 @@ cd system/netd
 git apply -v --check ../../device/doogee/x5/patches/0010-wifi-tethering-fix.patch
 cd ../..
 cd external/wpa_supplicant_8
+git apply -v --check ../../device/doogee/x5/patches/0001-Ignore-fake-nvram-wifi.patch
 git apply -v --check ../../device/doogee/x5/patches/0005-fix-wlan-hidden-wifi-scan.patch
 cd ../..
 cd packages/apps/Settings
