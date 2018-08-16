@@ -15,4 +15,4 @@ PRODUCT_MODEL := X5
 PRODUCT_MANUFACTURER := DOOGEE
 
 #SuperUser
-WITH_SU := true
+WITH_SU := false
