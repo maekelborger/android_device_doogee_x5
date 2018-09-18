@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="bekriebel/android_device_doogee_x5" path="device/doogee/x5" remote="github" />
-  <project name="bekriebel/proprietary_vendor_doogee_x5" path="vendor/doogee/x5" remote="github" />
+<project name="maekelborger/android_device_doogee_x5" path="device/doogee/x5" remote="github" />
+<project name="maekelborger/proprietary_vendor_doogee_x5" path="vendor/doogee/x5" remote="github" />
+<remote name="opengapps" fetch="https://github.com/opengapps/" />
+<project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+<project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps" />
+<project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps" />
 </manifest>
