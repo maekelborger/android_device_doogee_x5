@@ -54,7 +54,8 @@ ro.mtk_perfservice_support=1
 =/data/anr/mtk_traces.tx
 persist.logd.logpersistd=logcatd
 
-ro.telephony.default_network=2
+# GSM/WCDMA (auto mode according to PRL)
+ro.telephony.default_network=3
 
 # ClearMotion
 persist.sys.display.clearMotion=0
